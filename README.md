@@ -103,7 +103,6 @@ export function configFactory(http: Http): ConfigLoader {
 ```
 
 `ConfigHttpLoader` has two parameters:
-
 - **http**: `Http` : Http instance
 - **endpoint**: `string` : the `API endpoint`, to retrieve application settings from (*by default, `config.json`*)
 
@@ -120,4 +119,5 @@ Copyright (c) 2017 [Burak Tasci]
 [@ngx-universal/config-loader]: https://github.com/ngx-universal/config-loader
 [@ngx-config/parallel-loader]: https://github.com/ngx-config/parallel-loader
 [@ngx-config/series-loader]: https://github.com/ngx-config/series-loader
+[forRoot]: https://angular.io/docs/ts/latest/guide/ngmodule.html#!#core-for-root
 [Burak Tasci]: https://github.com/fulls1z3
