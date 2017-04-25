@@ -92,7 +92,7 @@ describe('@ngx-config/http-loader:',
           });
         });
 
-        it('should be able to retrieve settings from the specified `path`',
+        it('should be able to retrieve settings from the specified `endpoint`',
           async(inject([MockBackend, ConfigService],
             (backend: MockBackend, config: ConfigService) => {
               // mock response
@@ -104,7 +104,7 @@ describe('@ngx-config/http-loader:',
                 });
             })));
 
-        it('should throw w/o a valid `path`',
+        it('should throw w/o a valid `endpoint`',
           async(inject([MockBackend, ConfigService],
             (backend: MockBackend, config: ConfigService) => {
               // mock error
