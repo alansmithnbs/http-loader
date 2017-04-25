@@ -37,8 +37,7 @@ npm install @ngx-config/http-loader --save
 The following packages may be used in conjunction with **`@ngx-config/http-loader`**:
 - [@ngx-config/core]
 - [@ngx-universal/config-loader]
-- [@ngx-config/parallel-loader]
-- [@ngx-config/series-loader]
+- [@ngx-config/merge-loader]
 
 ### Adding `@ngx-config/http-loader` to your project (SystemJS)
 Add `map` for **`@ngx-config/http-loader`** in your `systemjs.config`
@@ -117,7 +116,6 @@ Copyright (c) 2017 [Burak Tasci]
 [ng-seed/universal]: https://github.com/ng-seed/universal
 [ng-seed/spa]: https://github.com/ng-seed/spa
 [@ngx-universal/config-loader]: https://github.com/ngx-universal/config-loader
-[@ngx-config/parallel-loader]: https://github.com/ngx-config/parallel-loader
-[@ngx-config/series-loader]: https://github.com/ngx-config/series-loader
+[@ngx-config/merge-loader]: https://github.com/ngx-config/merge-loader
 [forRoot]: https://angular.io/docs/ts/latest/guide/ngmodule.html#!#core-for-root
 [Burak Tasci]: https://github.com/fulls1z3
