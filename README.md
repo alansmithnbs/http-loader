@@ -89,6 +89,7 @@ export function configFactory(http: Http): ConfigLoader {
     AppComponent,
     ...
   ],
+  ...
   imports: [
     ConfigModule.forRoot({
       provide: ConfigLoader,
@@ -97,6 +98,7 @@ export function configFactory(http: Http): ConfigLoader {
     }),
     ...
   ],
+  ...
   bootstrap: [AppComponent]
 })
 ```
