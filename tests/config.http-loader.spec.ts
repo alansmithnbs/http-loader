@@ -5,18 +5,18 @@ import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
 
 // libs
-import { ConfigModule, ConfigLoader, ConfigService } from '@ngx-config/core';
+import { ConfigLoader, ConfigModule, ConfigService } from '@ngx-config/core';
 
 // module
 import { ConfigHttpLoader } from '../index';
 
 const testSettings = {
-  'system': {
-    'applicationName': 'Mighty Mouse',
-    'applicationUrl': 'http://localhost:8000'
+  system: {
+    applicationName: 'Mighty Mouse',
+    applicationUrl: 'http://localhost:8000'
   },
-  'i18n': {
-    'locale': 'en'
+  i18n: {
+    locale: 'en'
   }
 };
 
